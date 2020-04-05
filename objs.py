@@ -1,0 +1,54 @@
+cols = [
+    'HOSP_CODE',
+    'HN',
+    'AN',
+    'PATIENT_LOCATION_CODE',
+    'OPD_VISIT_DATE',
+    'IPD_REGIST_DATE',
+    'OPD_DIAG_CODE',
+    'OPD_DIAG_CODE0',
+    'OPD_DIAG_CODE1',
+    'OPD_DIAG_CODE2',
+    'OPD_DIAG_CODE3',
+    'OPD_DIAG_CODE4',
+    'OPD_DIAG_CODE5',
+    'IPD_DIAG_CODE',
+    'IPD_DIAG_CODE0', 
+    'IPD_DIAG_CODE1',
+    'IPD_DIAG_CODE2', 
+    'IPD_DIAG_CODE3', 
+    'IPD_DIAG_CODE4', 
+    'IPD_DIAG_CODE5',
+    'OPD_RESULT',
+    'IPD_DISCHARGE_STATUS',
+    'IPD_DISCHARGE_TYPE'
+]
+pk_cols = [
+    'HOSP_CODE',
+    'HN',
+    'PATIENT_LOCATION_CODE',
+]
+opd_cols = [
+    'OPD_VISIT_DATE',
+    'OPD_DIAG_CODE',
+    'OPD_DIAG_CODE0',
+    'OPD_DIAG_CODE1',
+    'OPD_DIAG_CODE2',
+    'OPD_DIAG_CODE3',
+    'OPD_DIAG_CODE4',
+    'OPD_DIAG_CODE5',
+    'OPD_RESULT',
+]
+ipd_cols = [
+    'AN',
+    'IPD_REGIST_DATE',
+    'IPD_DIAG_CODE',
+    'IPD_DIAG_CODE0', 
+    'IPD_DIAG_CODE1',
+    'IPD_DIAG_CODE2', 
+    'IPD_DIAG_CODE3', 
+    'IPD_DIAG_CODE4', 
+    'IPD_DIAG_CODE5',
+    'IPD_DISCHARGE_STATUS',
+    'IPD_DISCHARGE_TYPE'
+]
